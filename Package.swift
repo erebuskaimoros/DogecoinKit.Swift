@@ -13,7 +13,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/erebuskaimoros/BitcoinCore.Swift.git",
-            revision: "21c29bd2438b168fffabaf8ff8ea89e4e53cf15f"
+            revision: "74331848b91ae39e90781872e2006665d3c4abf7"
         ),
         .package(url: "https://github.com/attaswift/BigInt.git", exact: "5.3.0"),
         .package(url: "https://github.com/horizontalsystems/HdWalletKit.Swift.git", exact: "1.3.1"),

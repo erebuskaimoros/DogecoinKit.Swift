@@ -5,7 +5,7 @@
 - `BitcoinCore.Swift` baseline: Horizontal Systems tag `3.2.0`, commit
   `5b49f424f495904cf06519b1a7b861ef37b45b50`.
 - Reviewed Thwallet `BitcoinCore.Swift` fork revision:
-  `21c29bd2438b168fffabaf8ff8ea89e4e53cf15f`.
+  `74331848b91ae39e90781872e2006665d3c4abf7`.
 - Dogecoin consensus reference: Dogecoin Core v1.14.9, full commit
   `e0a1c157791544e818c901bd9341896965afbf9d`. The reviewed primary files are
   `src/auxpow.{h,cpp}`, `src/pow.cpp`, `src/dogecoin.cpp`,
@@ -86,7 +86,7 @@ DogecoinKit pins the reviewed BitcoinCore fork directly:
 ```swift
 .package(
     url: "https://github.com/erebuskaimoros/BitcoinCore.Swift.git",
-    revision: "21c29bd2438b168fffabaf8ff8ea89e4e53cf15f"
+    revision: "74331848b91ae39e90781872e2006665d3c4abf7"
 )
 ```
 
